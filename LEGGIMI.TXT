@@ -1,0 +1,20 @@
+BELLISSIMO PROGRAMMA PER VISUALIZZARE I GEO-TAG SU UNA MAPPA TIPO MAPS-GOOGLE
+
+1) METTE NEL FILE WHERE.DATA L'ELENCO DI INDIRIZZI O COSE DA RICERCARE (NELL'ESEMPIO ELENCO DI UNIVERSITÀ AMERICANE)
+   UNO PER RIGA;
+   
+2) LANCIATE PRIMA :
+					python geoload.py 
+	il quale salvera all'interno del file geodata.sqlite (dbase tipo sqlite) l'elenco dei sopra indicati indirizzi e le
+	relative coordinate geografiche
+
+3) LANCIATE A QUESTO PUNTO :
+								python geodump.py 
+						
+4) aprite il file risultante where.html con un browser
+
+
+Buon lavoro.
+
+
+			Ant
